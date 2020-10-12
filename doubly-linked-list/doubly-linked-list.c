@@ -7,8 +7,7 @@ struct Node
   struct Node *prev;
 };
 
-typedef Node *NodePtr;
-
+typedef struct Node *NodePtr;
 
 /*
 
